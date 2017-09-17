@@ -1,0 +1,17 @@
+.jumbotron{
+    background-color:darkcyan;
+    margin: 2px auto;
+    color: floralwhite;
+}
+.footer{
+    background-color: rosybrown;
+    color: lavender;
+    margin: 0px auto;
+    padding: 20px;
+}
+.row-content{
+    padding: 40px;
+    margin: 0px auto;
+    color: turquoise;
+
+}
