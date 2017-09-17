@@ -1,6 +1,7 @@
 .jumbotron{
     background-color:darkcyan;
     margin: 2px auto;
+    padding: 20px;
     color: floralwhite;
 }
 .footer{
@@ -15,22 +16,19 @@
     color: turquoise;
 
 }
-.a-style{
-    color: black;
-}
+
 .navbar-style{
     background-color: darkgray;
     border-bottom: none;
     width: 100%;
     height: 60px;
 }
-a:hover{
-    background-color:royalblue;
-}
+
+
 .li-style{
    list-style: none;
   display: inline-block;
   border-left: 1px ridge;
   padding: 10px 30px 10px 30px;
   /* margin-top: 16px; */
-  height: 60px; 
+  height: 60px; }
