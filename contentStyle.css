@@ -10,8 +10,10 @@
   
 }
 .footer{
+    background-color:#9E9E9E;
+    color: floralwhite;
+    margin: 0px auto;
     padding: 20px;
-    background-color:#9E9E9E; 
 }
 .jumbotron{
     padding: 20px;
