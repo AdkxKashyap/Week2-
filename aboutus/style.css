@@ -32,3 +32,9 @@
   padding: 10px 30px 10px 30px;
   /* margin-top: 16px; */
   height: 60px; }
+  .tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}

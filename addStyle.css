@@ -1,30 +1,32 @@
 
-
+.card-header{
+    background-color: orange;
+}
 
 .content{
   margin:  auto; 
   padding: 40px 0px 40px 0px; 
    border-bottom: 1px ridge lightgreen;
   min-height: 300px;
-  background-color:#E3F2FD;
+  
   
 }
 .footer{
-    background-color:#9E9E9E;
+    background-color:#FF9800;
     color: floralwhite;
     margin: 0px auto;
     padding: 20px;
 }
 .jumbotron{
-    padding: 20px;
-    background-color: #BDBDBD;
+    padding: 50px;
+    background-color: #FFAB40;
     color:floralwhite;
    
 }
 
 
 .navbar-style{
-    background-color: #424242;
+    background-color: #E65100;
     border-bottom: none;
     width: 100%;
     height: 60px;
