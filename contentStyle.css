@@ -16,7 +16,7 @@
     padding: 20px;
 }
 .jumbotron{
-    padding: 20px;
+    padding: 50px;
     background-color: #BDBDBD;
     color:floralwhite;
    
@@ -27,14 +27,14 @@
     background-color: #424242;
     border-bottom: none;
     width: 100%;
-    height: 60px;
+    
 }
 
 .li-style{
    list-style: none;
   display: inline-block;
   border-left: 1px ridge;
-  padding: 10px 30px 10px 30px;
+  padding: 3px 30px 10px 30px;
   /* margin-top: 16px; */
-  height: 60px; }
+   }
 
