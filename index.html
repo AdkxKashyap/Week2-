@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="indexStyle.css">
     <link rel="stylesheet" href="./pushy-buttons-master/css/pushy-buttons.min.css">
     <link rel="stylesheet" href="bs-social.css">
+    <link rel="stylesheet" href="./css/style.css">
      <!--endbuild-->
 
 
@@ -40,7 +41,7 @@
                     <li  class="nav-item li-style"><a style="color:#000000" class="nav-link" href="./contactus.html"><span data-hover="Palimpsest" class="fa fa-address-card fa-lg"></span> Contact</a></li>
                 </ul>
                 <span class="navbar-text">
-                    <a data-toggle="modal" data-target="#loginModal">
+                    <a id="loginButt" >
                         <span class="fa fa-sign-in"></span>Login</a>
                 </span>
                 
@@ -52,7 +53,7 @@
         <div class="modal-content">
             <div class="modal-header">
                 <h4 class="modal-title">Login </h4>
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <button type="button" class="close color" data-dismiss='modal'>&times;</button>
             </div>
             <div class="modal-body">
                 <form class="form-inline">
@@ -72,7 +73,7 @@
                 </form>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-default btn-sm" data-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-default btn-sm" data-dismiss="modal" >Cancel</button>
                 <button type="submit" class="btn btn-primary btn-sm">Sign in</button>
             </div>
         </div>
@@ -86,7 +87,7 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <h4 class="modal-title">Reserve A Table</h4>
-                    <button type="button" data-dismiss="modal" class="close">&times;</button>
+                    <button type="button" data-dismiss="modal"  class="close color">&times;</button>
                 </div>
                 <div class="modal-body">
                      <form>
@@ -126,7 +127,7 @@
                             </div>
                                     <div class="row">
                                         <div  class="col-sm-3 col-12 offset-sm-4 ">
-                                    <button data-dismiss="modal" type="submit" class="btn btn--md btn--red">Cancel</button>
+                                    <button  type="button" class="btn btn--md btn--red" data-dismiss="modal">Cancel</button>
                                 </div> 
                                 <div  class="col-sm-1 col-12 ">
                                     <button type="submit" class="btn btn--md btn--green">Reserve</button>
@@ -159,8 +160,8 @@
                     <img class="img-fluid" src="./img/logo.png">
                 </div>
                 <div class="col-12 col-sm-3">
-                    <a role="button" class="btn btn-sm btn-block btn--md btn--red "    data-toggle="modal"
-                    data-target="#myreserve" > <!--data-toggle="tooltip" 
+                    <a role="button" id="reserveButt" class="btn btn-sm btn-block btn--md btn--red "   
+                                       > <!--data-toggle="tooltip" 
                     data-html="true" title="Or Call Us at<br><strong>999999</strong>" 
                      data-placement="bottom"--> <span style="font-family:cursive; color:ivory">Reserve a Table</a><!--Adding Tooltip -->
                 </div>

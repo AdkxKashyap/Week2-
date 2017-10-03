@@ -1,0 +1,11 @@
+.modal-header {
+  background: #01579B;
+  color: floralwhite; }
+  .modal-header .color {
+    color: floralwhite; }
+
+.modal-body {
+  background: #E1F5FE; }
+
+.modal-footer {
+  background: #B3E5FC; }
